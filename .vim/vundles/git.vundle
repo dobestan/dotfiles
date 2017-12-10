@@ -1,0 +1,7 @@
+Plugin 'tpope/vim-git'
+Plugin 'tpope/vim-fugitive'
+Plugin 'gregsexton/gitv'
+Plugin 'mattn/webapi-vim'
+Plugin 'mattn/gist-vim'
+
+
