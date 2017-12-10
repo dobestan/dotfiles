@@ -1,0 +1,19 @@
+snippet mc "django model class" b
+class ${1:ClassName}(models.${2:Model}):
+	${3:name} = models.${4:CharField}(${5:max_length=10})
+endsnippet
+
+snippet ma "django model attribute" b
+${3:name} = models.${4:CharField}(${5:max_length=10})
+endsnippet
+
+snippet mp "django model property" b
+def _${1:is_property}(self):
+	return ${2:something}
+$1 = property(_$1)
+endsnippet
+
+snippet vf "django view function" b
+def ${1:home}(${2:request}):
+	return render(request, "${3:template}.html", {${4:object}})
+endsnippet
